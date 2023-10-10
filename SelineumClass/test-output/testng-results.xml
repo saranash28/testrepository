@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62022" started-at="2023-08-23T10:43:00Z" finished-at="2023-08-23T10:44:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62022" started-at="2023-08-23T10:43:00Z" finished-at="2023-08-23T10:44:02Z">
+      <class name="testNGdemo.Test1">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:testNGdemo.Test1@4bec1f0c]" name="beforetest" is-config="true" duration-ms="23556" started-at="2023-08-23T16:13:00Z" finished-at="2023-08-23T16:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="loginProviderCases(java.lang.String, java.lang.String)[pri:0, instance:testNGdemo.Test1@4bec1f0c]" name="loginProviderCases" duration-ms="15388" started-at="2023-08-23T16:13:24Z" data-provider="loginData" finished-at="2023-08-23T16:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginProviderCases -->
+        <test-method status="PASS" signature="loginProviderCases(java.lang.String, java.lang.String)[pri:0, instance:testNGdemo.Test1@4bec1f0c]" name="loginProviderCases" duration-ms="6025" started-at="2023-08-23T16:13:40Z" data-provider="loginData" finished-at="2023-08-23T16:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginProviderCases -->
+        <test-method status="PASS" signature="loginProviderCases(java.lang.String, java.lang.String)[pri:0, instance:testNGdemo.Test1@4bec1f0c]" name="loginProviderCases" duration-ms="7025" started-at="2023-08-23T16:13:46Z" data-provider="loginData" finished-at="2023-08-23T16:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginProviderCases -->
+        <test-method status="PASS" signature="loginProviderCases(java.lang.String, java.lang.String)[pri:0, instance:testNGdemo.Test1@4bec1f0c]" name="loginProviderCases" duration-ms="7129" started-at="2023-08-23T16:13:53Z" data-provider="loginData" finished-at="2023-08-23T16:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginProviderCases -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testNGdemo.Test1@4bec1f0c]" name="aftertest" is-config="true" duration-ms="1848" started-at="2023-08-23T16:14:00Z" finished-at="2023-08-23T16:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testNGdemo.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG]">
+  <test name="testNGDemo(failed)">
+    <classes>
+      <class name="testNGdemo.Test1">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="loginProviderCases" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNGdemo.Test1 -->
+    </classes>
+  </test> <!-- testNGDemo(failed) -->
+</suite> <!-- Failed suite [TestNG] -->
